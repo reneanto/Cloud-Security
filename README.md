@@ -1,4 +1,4 @@
 # Cloud-Security
 AWS Security
 
-## AWS Security Speciality Notes
+## AWS Security Specialty Notes
