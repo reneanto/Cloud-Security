@@ -27,3 +27,39 @@
 			* Accept - realize the organization can absorb the potential impact.
 			* Transfer - give it to other party to manage.
 
+## Frameworks and Standards
+
+### Standards Based approach
+
+* Standard based approach provides an organization with the knowledge and experience of a wide range of industry security to be practices to secure their work loads, this can be further integrated with a framework to map security controls to our requirements.
+* Some of the Frameworks are as follows
+
+### AWS Well-Architected Framework
+
+* The Well-Architected framework is based on six pillars
+* `operational excellence,security,reliability,performance efficiency,cost optimization,sustainability`
+* A Security Pillar focuses on protecting information, systems, and assets while delivering business needs, these are categorized as.
+	* `Infrastructure Protection`
+	* `Detection`
+	* `Data Protection`
+	* `Identity and Access Management(IAM)`
+	* `Incident Response`
+* More about the security pillars can be found at the below.
+
+**Infrastructure Protection**
+
+* It may utilize multiple control methodologies, one such is defense in depth, which is an equivalent of deploying security controls at every layer of the environment.
+* It can be achieved via AWS provided Security Controls such as.
+
+```text
+	* Amazon VPCs.
+	* Tiered Subnet Deployments.
+	* Network ACLs.
+	* Security Groups.
+	* ELBs.
+	* AWS Shield.
+	* AWS WAF.
+	* Amazon Guard Duty.
+	* AWS Firewall Manager.
+```
+
