@@ -46,6 +46,8 @@
 	* `Incident Response`
 * More about the security pillars can be found at the below.
 
+#### Security Pillars
+
 **Infrastructure Protection**
 
 * It may utilize multiple control methodologies, one such is defense in depth, which is an equivalent of deploying security controls at every layer of the environment.
@@ -63,3 +65,29 @@
 	* AWS Firewall Manager.
 ```
 
+**Detection**
+
+* There are plenty AWS services which provide this which overlap over the security pillars.
+* Customer can also implement Partner Provided services to monitor/analyze/assess/alarm via detection.
+* The AWS services which provide detection are
+
+```text
+* AWS Trusted Advisor
+* AWS Audit Manager
+* AWS CloudTrail
+* Amazon CloudWatch
+* VPC Flow Logs
+```
+
+
+**Data Protection**
+
+* As the name says it protects the data at rest and transit.
+* focuses more on data-at-rest, the resources used to achieve this are
+	* Hardening.
+	* Always encrypting data.
+	* Using the most secure remote access methods possible.
+
+
+**Identity and Access Management**
+**Incident Response**
