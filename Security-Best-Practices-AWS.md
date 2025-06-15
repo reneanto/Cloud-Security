@@ -131,3 +131,17 @@
 	* It's designed to be size,sector and country agnostic
 	* References globally accepted standards,guidelines and practices
 	* Organizations across the world can use it to efficiently operate in a global environment.
+
+
+### CIA triad
+
+AWS aligns with the CIA triad and makes sure that organizations meet the three standards
+
+The CIA triad in AWS services corresponds given as an example below
+
+Confidentiality
+	Amazon EBS encryption
+Integrity
+	 Amazon CloudTrail log file integrity validation
+Availability
+	ELB (Elastic Load Balancing System)
