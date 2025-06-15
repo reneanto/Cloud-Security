@@ -90,4 +90,44 @@
 
 
 **Identity and Access Management**
+
+* As the name indicates it helps in managing access to the AWS services
+* Using IAM we can implement the principle of least privilege and enforce duty separation with respective authorization for each interaction.
+* Also enables centralized privilege management and reduce/eliminates long tern credentials.
+
 **Incident Response**
+
+* Incident response is easier and much effective to manage on cloud than on on-premise environment.
+
+### Cloud Adoption Framework (CAF)
+
+* The CAF identifies and groups related stakeholders into six perspectives that are critical to cloud adoption.
+	* Business
+	* Platforms
+	* Security
+	* Operations
+	* Governance
+	* People
+* The perspectives establish four of the following control categories.
+	* Directive
+		* Includes Account ownership/contact information, Change/Asset management, Least Privilege access.
+	* Preventive
+		* Identity/access,infrastructure and data protection.
+	* Detective
+		* Asset inventory, Change Detection, Logging and Monitoring.
+	* Responsive
+		* Vulnerabilities,Privilege Escalation and DDoS attack.
+
+### AWS and the NIST Cybersecurity Framework
+
+* The CSF offers a construct of three elements: Core,Tiers and Profiles.
+* The Core represents a set of Security Practices,outcomes and controls that support five risk management functions as follows
+	* Identity
+	* Protect
+	* Detect
+	* Respond
+	* Recover
+* The benefits of NIST CSF are
+	* It's designed to be size,sector and country agnostic
+	* References globally accepted standards,guidelines and practices
+	* Organizations across the world can use it to efficiently operate in a global environment.
